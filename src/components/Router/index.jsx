@@ -6,7 +6,7 @@ import Admin from '../Admin';
 const Routing = (
   <Router>
     <div>
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={Admin} />
       <Route path="/Admin" component={Admin} />
       <Route path="/App" component={App} />
     </div>

@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "laurendemoapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authunicornflix38a1d47b",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
